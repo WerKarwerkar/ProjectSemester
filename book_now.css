@@ -1,0 +1,114 @@
+.page-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #154352;
+  letter-spacing: 5px;
+  background-color: #FAC77C;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+.tickets-wrapper {
+  margin-bottom: 100px;
+}
+
+.tickets-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  gap: 30px
+}
+
+.ticket {
+  padding: 40px 85px;
+  border-radius: 20px;
+  border: none;
+  font-family: Atma;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+}
+
+.ticket-violet {
+  background-color: #D8AFEB;
+  color: #582E6C;
+}
+
+.ticket-green {
+  background-color: #90B7BA;
+  color: #154352;
+}
+
+.ticket-red {
+  background-color: #F0908A;
+  color: #801515;
+}
+
+.offer-details {
+  margin-bottom: 100px;
+}
+
+.offer-details .container {
+  display: grid;
+  grid-template-columns: 500px 1fr 190px;
+  gap: 5px;
+}
+
+.offer-details-column {
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  background: #90B7BA;
+}
+
+.offer-details-column img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.offer-details-column.no-padding {
+  padding: 0;
+}
+
+.offer-details-column .offer-title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.offer-details-column .offer-sub-title {
+  margin: 10px 0 0;
+  color: #fff;
+}
+
+.offer-details-column .offer-description {
+  font-family: Atma;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.offer-details-column:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  color: #023687
+}
+
+@media (max-width: 900px) {
+
+.container {
+  flex-direction: column;
+}
+
+
+

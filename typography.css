@@ -1,0 +1,41 @@
+.t100 {
+  font-family: Atma;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.t200 {
+  font-family: Atma;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.t300 {
+  font-family: Atma;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.t400 {
+  font-family: Atma;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.t500 {
+  font-family: Atma;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.t600 {
+  font-family: Atma;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
