@@ -4,7 +4,7 @@
 ### Overview 
 This project is the semester project of my first-year studies in front-end development, focusing on creating an interactive website.
 
-### Describtion 
+### Description 
 This website is designed to engage primary and middle school children, prioritizing user-friendliness, easy navigation, and a colorful, inviting appeal to spark interest and curiosity, encouraging visits to the interactive museum.
 
 ### Key Features
